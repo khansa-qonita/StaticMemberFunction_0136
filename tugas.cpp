@@ -33,4 +33,11 @@ public:
         nama = pNama;
     }
 
-    
+    // Metode untuk menampilkan informasi kendaraan
+    void tampilkanInfo() {
+        cout << "ID Kendaraan   : " << id << endl;
+        cout << "Nama Kendaraan : " << nama << endl;
+        cout << "---------------------------" << endl;
+    }
+};
+
