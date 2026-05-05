@@ -15,4 +15,10 @@ public:
         nama = "Belum Diatur";
     }
 
-   
+    // Constructor dengan parameter ID saja
+    Kendaraan(int pId) {
+        id = pId;
+        nama = "Anonim";
+    }
+
+    
